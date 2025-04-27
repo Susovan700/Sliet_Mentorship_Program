@@ -1,0 +1,306 @@
+const mentors = [
+        {
+            id: 1,
+            name: "Dr. Birmohan Singh",
+            position: "Professor & Head",
+            expertise: "Computer Networks, Distributed Systems",
+            education: "Ph.D., M.E.",
+            phone: "+91-1672-253208",
+            email: "birmohansingh@sliet.ac.in, birmohans@gmail.com",
+            
+           
+        },
+        {
+            id: 2,
+            name: "Dr. Damanpreet Singh",
+            position: "Professor",
+            expertise: "Computer Science & Engineering",
+            education: "Ph.D., M.Tech, B.Tech.",
+            phone: "+91-1672-253210",
+            email: "damanpreets@sliet.ac.in",
+            
+        },
+        {
+            id: 3,
+            name: "Dr. Major Singh Goraya",
+            position: "Professor",
+            expertise: "Wireless Networks, Cloud Computing",
+            education: "Ph.D., M.Tech., B.Tech.",
+            phone: "+91-1672-253212",
+            email: "mjrsingh@yahoo.com",
+            
+            
+        },
+        {
+            id: 4,
+            name: "Dr. Manoj Sachan",
+            position: "Professor",
+            expertise: "Artificial Intelligence, Data Mining",
+            education: "Btech,Ph.D,M.E",
+            email: "mjrsingh@yahoo.com",
+            phone: "+91-1672-253326",
+        },   
+        {
+            id: 4,
+            name: "Dr. Gurjinder Kaur",
+            position: "Associate Professor",
+            expertise: "Artificial Intelligence, Data Mining",
+            education: "B.E. Kyrgyz Technical University, M.S. BITS Pilani, Ph.D. SLIET",
+            email: "gurjinder13@yahoo.com",
+            phone: "+91-1672-253326",
+        },    
+        
+        {
+            id: 5,
+            name: "Dr. Amar Nath",
+            position: "Assistant Professor",
+            expertise: "Collaborative Task Execution, Distributed Computing",
+            education: "Ph.D. (IIT Roorkee), M.Tech (NIT Rourkela), B.Tech (BIET Jhansi)",
+            phone: "01672-253610",
+            email: "amarnath@sliet.ac.in",
+            
+           
+        },
+        {
+            id: 6,
+            name: "Dr. Jagdeep Singh",
+            position: "Assistant Professor",
+            expertise: "Routing in Delay-Tolerant Opportunistic Networks",
+            education: "Ph.D. (University of Delhi), M.Tech, B.Tech (CSE)",
+            phone: "01672-253320",
+            email: "jagdeep@sliet.ac.in, jagdeepknit@gmail.com",
+            
+            
+        },
+        {
+            id: 7,
+            name: "Dr. Manminder Singh",
+            position: "Assistant Professor",
+            expertise: "Computer Science and Applications",
+            education: "Ph.D. (Pursuing), M.Tech (Computer Science), B.Tech (Computer Science & Info. Technology)",
+            phone: "+91-1672-253612",
+            email: "rahulgautam@sliet.ac.in",
+            
+           
+        },
+        {
+            id: 8,
+            name: "Dr. Tajinder Singh",
+            position: "Assistant Professor",
+            expertise: "Computer Science and Applications",
+            education: "Ph.D.",
+            phone: "+91-6283963279",
+            email: "tajindersingh@sliet.ac.in",
+            
+           
+        },
+        {
+            id: 9,
+            name: "Dr. Preetpal Kaur Buttar",
+            position: "Assistant Professor",
+            expertise: "Computer Science and Applications",
+            education: "Ph.D. (Pursuing), M.Tech (Computer Science), B.Tech (Computer Science & Info. Technology)",
+            phone: "+91-1672-253612",
+            email: "preetpal@sliet.ac.in",
+            
+           
+        },{
+            id: 10,
+            name: "Dr. utkarsh",
+            position: "Assistant Professor",
+            expertise: "Computer Science and Applications",
+            education: "Dr Philosophy,Master of Technology,B.tech",
+            
+            
+           
+        },
+        {
+            id: 11,
+            name: "Dr. Vinod Kumar Verma",
+            position: "Assistant Professor (Contract)",
+            expertise: "Computer Science & Engineering",
+            education: "Ph.D., M.Tech, B.Tech",
+            phone: "+91-1672-253218",
+            email: "vinod5881@gmail.com",
+            
+            
+        },
+        {
+            id: 12,
+            name: "Jaspal Singh",
+            position: "ME,P.hd",
+            expertise: "Cloud Computing, Software Development",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            email: "safrisoft@yahoo.com",
+            
+            
+        },
+        {
+            id: 13,
+            name: "Rahul Gautum",
+            position: "Assistant Profesor",
+            expertise: "Computer Science",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            phone: "+91-1672-25-3612",
+            email: "rahulgautum@sliet.ac.in",
+            
+            
+        },
+        {
+            id: 14,
+            name: "Jatinder Pal Singh",
+            position: "Assistant Profesor",
+            expertise: "Computer Science",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            email: "jatinderpalsingh@sliet.ac.in",
+            
+            
+        },
+        {
+            id: 15,
+            name: "Sukpreet Singh",
+            position: "Assistant Profesor",
+            expertise: "Computer Science",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            email: "sukpreet.manshahlagmail.com",
+            
+            
+        },
+        {
+            id: 16,
+            name: "Abhishek",
+            position: "Guest/Part-Time Teacher",
+            expertise: "Computer Science",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            phone: "9915025805",
+            email: "abhishek@sliet.ac.in",
+            
+            
+        },
+        {
+            id: 17,
+            name: "Chinu",
+            position: "Guest/Part-Time Teacher",
+            expertise: "Data Science, Machine Learning",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            phone: "9915025805",
+            email: "chinu@sliet.ac.in",
+           
+        },
+        {
+            id: 18,
+            name: "Dr. Vikash Kumar Garg",
+            position: "Guest/Part-Time Teacher",
+            expertise: "Big Data, Hadoop, MongoDB",
+            education: "Ph.D. (CSE), M.Tech, B.Tech",
+            phone: "9988610629",
+            email: "contactvikashgarg@gmail.com",
+            
+            
+        },
+        {
+            id: 19,
+            name: "Harpreet Singh",
+            position: "Guest/Part-Time Teacher",
+            expertise: "Software Engineering",
+            education: "M.Tech, B.Tech",
+            
+            
+        },
+        {
+            id: 20,
+            name: "Sakshi Bansal",
+            position: "Guest/Part-Time Teacher",
+            expertise: "Machine Learning, Data Science",
+            education: "M.Tech, B.Tech",
+            
+        },
+        {
+            id: 21,
+            name: "Sunita Rani",
+            position: "Guest/Part-Time Teacher",
+            expertise: "Data Analytics",
+            education: "Ph.D. (Pursuing), M.Tech, B.Tech",
+            phone: "8196013222",
+            email: "sunitarani@sliet.ac.in",
+           
+            
+        }
+    
+];
+
+function displayMentors() {
+    const mentorList = document.getElementById('mentor-list');
+    mentorList.innerHTML = '';
+
+    mentors.forEach(mentor => {
+        const mentorCard = document.createElement('div');
+        mentorCard.classList.add('mentor-card');
+        mentorCard.innerHTML = `
+            
+            <h3>${mentor.name}</h3>
+            <p>${mentor.position}</p>
+            <p>Expertise: ${mentor.expertise}</p>
+            <p>Education: ${mentor.education}</p>
+            <p>Phone: ${mentor.phone}</p>
+            <p>Email: ${mentor.email}</p>
+        `;
+        mentorList.appendChild(mentorCard);
+    });
+}
+
+
+function populateMentorSelect() {
+    const mentorSelect = document.getElementById('mentor-select');
+    mentorSelect.innerHTML = '<option value="">Choose a mentor</option>';
+    mentors.forEach(mentor => {
+        const option = document.createElement('option');
+        option.value = mentor.id;
+        option.textContent = mentor.name;
+        mentorSelect.appendChild(option);
+    });
+}
+
+function updateTimeSlots() {
+    const mentorId = document.getElementById('mentor-select').value;
+    const date = document.getElementById('date-select').value;
+    const timeSlotSelect = document.getElementById('time-slot');
+
+    timeSlotSelect.innerHTML = '<option value="">Choose a time slot</option>';
+
+    if (mentorId && date) {
+        const mentor = mentors.find(m => m.id === parseInt(mentorId));
+        const availableDate = mentor.availableSlots.find(slot => slot.date === date);
+
+        if (availableDate) {
+            availableDate.slots.forEach(slot => {
+                const option = document.createElement('option');
+                option.value = slot;
+                option.textContent = slot;
+                timeSlotSelect.appendChild(option);
+            });
+        }
+    }
+}
+
+
+document.getElementById('mentor-select').addEventListener('change', updateTimeSlots);
+document.getElementById('date-select').addEventListener('change', updateTimeSlots);
+
+document.getElementById('booking-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const mentorId = document.getElementById('mentor-select').value;
+    const date = document.getElementById('date-select').value;
+    const timeSlot = document.getElementById('time-slot').value;
+
+    if (mentorId && date && timeSlot) {
+        const mentor = mentors.find(m => m.id === parseInt(mentorId));
+        alert(`Booking confirmed with ${mentor.name} on ${date} at ${timeSlot}`);
+        
+    } else {
+        alert('Please fill in all fields');
+    }
+});
+
+displayMentors();
+populateMentorSelect();
